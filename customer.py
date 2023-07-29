@@ -12,7 +12,7 @@ class CustomerManagementSystem:
         self.customers.append(customer)
 
     def view_customers(self):
-        print("Customer List:")
+        print("Customer List: ")
         for idx, customer in enumerate(self.customers, 1):
             print(f"{idx}. Name: {customer.name}, Email: {customer.email}, Phone: {customer.phone}")
 
